@@ -2,11 +2,6 @@ import pandas as pd
 import xlrd, xlwt
 import openpyxl
 
-list_me = ['Kich', 'Urusai', 'goblin', 21, 189, 'coat, boots, pants',
-             'pointed nose, brown eyes, high forehead',
-             'scar on left cheek', 3, 4, 2, 5, 32, 4]
-
-
 def Excel_file_writing(count, list1):
     list_txt = ['name: ', 'surname: ', 'race: ', 'age: ', 'growth: ',
                 'clothes: ', 'facialfeatures: ', 'appearancefeatures: ',
